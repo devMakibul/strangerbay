@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — StrangerBay</title>
+    <meta name="description" content="Learn more about StrangerBay, our mission, and how anonymous chatting works.">
+    <link rel="icon" href="/assets/favicon.ico" sizes="any">
+    <link rel="icon" href="/assets/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <meta property="og:image" content="https://strangerbay.com/assets/meta-banner.webp">
+    <meta name="twitter:image" content="https://strangerbay.com/assets/meta-banner.webp">
+    <meta name="theme-color" content="#0f0f13">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/landing-style.css">
+</head>
+
+<body class="article-page-body">
+
+    <!-- NAV -->
+    <header class="site-header" id="site-header">
+        <div class="header-inner">
+            <a href="/" class="logo"><img src="/assets/strangerbay-logo.webp" alt="StrangerBay"
+                    class="logo-img">StrangerBay</a>
+            <nav class="nav-links" id="nav-links">
+                <a href="/">Home</a>
+                <a href="/page/about/">About</a>
+                <a href="/page/privacy/">Privacy</a>
+                <a href="/page/terms/">Terms</a>
+                <a href="/page/contact/">Contact</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- BREADCRUMB -->
+    <div class="article-breadcrumb">
+        <a href="/">Home</a><span class="sep">/</span>
+        <span>About</span>
+    </div>
+
+    <!-- CONTENT -->
+    <article class="article-container">
+        <header class="article-header">
+            <div class="article-tag">Company</div>
+            <h1>About StrangerBay</h1>
+            <div class="article-meta">Last Updated: March 17, 2026</div>
+        </header>
+
+        <div class="article-body">
+            <p>StrangerBay is a platform designed for anonymous conversations. We believe that in a world where
+                everything is tracked, having a space to talk freely without judgement or permanence is essential.</p>
+
+            <h2>Our Mission</h2>
+            <p>Our mission is to provide a safe, secure, and fast anonymous chat experience where users can connect with
+                people from all over the world without the need for accounts or identity verification.</p>
+
+            <h2>How it Works</h2>
+            <p>When you click "Start Chatting", you are paired with another live user from somewhere in the world. The
+                process is completely random. As soon as either of you ends the chat or closes the browser, the
+                connection is instantly severed and all messages vanish from the system.</p>
+
+            <h2>Privacy First</h2>
+            <p>Our philosophy is built on privacy. We don't build user profiles, we don't sell data, and we don't track
+                who you are. We've created StrangerBay to be the kind of space the original internet was — a place for
+                open, anonymous, and genuine exchange.</p>
+        </div>
+    </article>
+
+    <!-- FOOTER -->
+    <footer class="article-footer">
+        <div class="article-footer-inner">
+            <p class="article-footer-copy">&copy; 2026 StrangerBay. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('open');
+            });
+        }
+    </script>
+
+</body>
+
+</html>

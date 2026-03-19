@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StrangerBay — Anonymous Chat with Strangers Online | Free & Private</title>
+    <meta name="description"
+        content="StrangerBay lets you chat anonymously with random strangers worldwide. No sign-up, no data stored, completely private. Start talking to someone new right now.">
+    <meta name="keywords"
+        content="anonymous chat, chat with strangers, random chat, omegle alternative, private chat, free chat, online chat, strangerbay">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="StrangerBay — Anonymous Chat with Strangers">
+    <meta property="og:description"
+        content="Chat with random strangers anonymously. No sign-up required, no data stored. Completely free and private.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://strangerbay.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="StrangerBay — Anonymous Chat with Strangers">
+    <meta name="twitter:description" content="Chat with random strangers anonymously. No sign-up, private, and free.">
+    <link rel="canonical" href="https://strangerbay.com">
+    <link rel="icon" href="/assets/favicon.ico" sizes="any">
+    <link rel="icon" href="/assets/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/assets/favicon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <meta property="og:image" content="https://strangerbay.com/assets/meta-banner.webp">
+    <meta name="twitter:image" content="https://strangerbay.com/assets/meta-banner.webp">
+    <meta name="theme-color" content="#0f0f13">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="landing-style.css">
+</head>
+
+<body>
+
+    <!-- ══════════════ HEADER ══════════════ -->
+    <header class="site-header" id="site-header">
+        <div class="header-inner">
+            <a href="/" class="logo"><img src="/assets/strangerbay-logo.webp" alt="StrangerBay"
+                    class="logo-img">StrangerBay</a>
+            <nav class="nav-links" id="nav-links">
+                <a href="#how-it-works">How It Works</a>
+                <a href="#faq">FAQ</a>
+                <a href="#articles">Articles</a>
+                <a href="/chat/" class="nav-cta">Start Chatting</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- ══════════════ HERO ══════════════ -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge"><svg viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke-width="0"></g>
+                    <g stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g>
+                        <path
+                            d="M13.5 16.5854C13.5 17.4138 12.8284 18.0854 12 18.0854C11.1716 18.0854 10.5 17.4138 10.5 16.5854C10.5 15.7569 11.1716 15.0854 12 15.0854C12.8284 15.0854 13.5 15.7569 13.5 16.5854Z"
+                            fill="#ffffff"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5.94209 10.0005C5.93921 9.87333 5.9375 9.73733 5.9375 9.59375C5.9375 8.70739 6.00254 7.50382 6.27381 6.28307C6.54278 5.07271 7.03242 3.76302 7.94009 2.74189C8.8791 1.6855 10.2132 1 12 1C13.7868 1 15.1209 1.6855 16.0599 2.74189C16.9676 3.76302 17.4572 5.07271 17.7262 6.28307C17.9975 7.50382 18.0625 8.70739 18.0625 9.59375C18.0625 9.73733 18.0608 9.87333 18.0579 10.0005C19.688 10.0314 21 11.3625 21 13V20C21 21.6569 19.6569 23 18 23H6C4.34315 23 3 21.6569 3 20V13C3 11.3625 4.31196 10.0314 5.94209 10.0005ZM16.0573 10C16.0605 9.87465 16.0625 9.73868 16.0625 9.59375C16.0625 8.79261 16.0025 7.74618 15.7738 6.71693C15.5428 5.67729 15.1574 4.73698 14.5651 4.07061C14.0041 3.4395 13.2132 3 12 3C10.7868 3 9.9959 3.4395 9.43491 4.07061C8.84258 4.73698 8.45722 5.67729 8.22619 6.71693C7.99747 7.74618 7.9375 8.79261 7.9375 9.59375C7.9375 9.73868 7.93946 9.87465 7.94265 10H16.0573ZM19 13C19 12.4477 18.5523 12 18 12H6C5.44772 12 5 12.4477 5 13V20C5 20.5523 5.44772 21 6 21H18C18.5523 21 19 20.5523 19 20V13Z"
+                            fill="#ffffff"></path>
+                    </g>
+                </svg>
+                100% Anonymous & Private</div>
+            <h1>Talk to <span>Strangers</span>.<br>No Strings Attached.</h1>
+            <p class="hero-sub">StrangerBay connects you with real people from around the world instantly. No accounts,
+                no tracking. Just pure, unfiltered conversation with complete anonymity.</p>
+            <a href="/chat/" class="hero-cta">
+                Start Chatting Now
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+            <p class="hero-trust">No sign-up required · Free forever</p>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ══════════════ HOW IT WORKS ══════════════ -->
+    <section class="section section-center" id="how-it-works">
+        <div class="container">
+            <div class="section-label">Getting Started</div>
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-desc">Getting started on StrangerBay takes just a few seconds. No complicated sign-up
+                flows, no email verification, and absolutely no personal information required. Here&rsquo;s a
+                step-by-step walkthrough of how easy it is to start connecting with someone new.</p>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-num">1</div>
+                    <h3>Pick a Display Name</h3>
+                    <p>Choose any name you want and it can be anything. A nickname, an alias, or something creative.
+                        This
+                        is the only thing the other person will see, and it is never linked to your real identity. You
+                        can change it every time you start a new conversation. Think of it as putting on a new mask
+                        before each chat.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">2</div>
+                    <h3>Get Instantly Matched</h3>
+                    <p>Once you hit that button, our matchmaking system immediately starts looking for an available
+                        partner. The entire process typically takes under five seconds. You are paired with another
+                        real, live person who is online right now and also searching for a conversation. No bots, no
+                        queues, just people.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-num">3</div>
+                    <h3>Chat Freely & Privately</h3>
+                    <p>Your conversation is completely private. Send text messages, share images, and reply to specific
+                        messages. The entire session is ephemeral, once either person disconnects or closes their
+                        browser, none of you can ever see each other's messages again or retrieve them later.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ══════════════ WHY US ══════════════ -->
+    <section class="section" id="why-us">
+        <div class="container">
+            <div class="section-label">Benefits</div>
+            <h2 class="section-title">Why StrangerBay?</h2>
+            <p class="section-desc">In a world full of overcomplicated social media platforms that harvest your data,
+                StrangerBay offers a radically simple alternative. Here&rsquo;s what makes it different.</p>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3>Absolute Privacy</h3>
+                    <p>We don&rsquo;t collect your email, phone number, IP address, or any kind of personal identifier.
+                        Anonymous authentication is handled entirely on the client side. We have no way of knowing who
+                        you are, and that&rsquo;s by design. Unlike other platforms that say they&rsquo;re private while
+                        quietly logging metadata, StrangerBay is architected from the ground up to be truly
+                        zero-knowledge.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Zero Wait Time</h3>
+                    <p>Our real-time matchmaking engine is built for speed. You click a button and you&rsquo;re chatting
+                        within seconds. There are no long queues, waiting rooms, or &ldquo;searching for 5
+                        minutes&rdquo; loops. If no one is available at the exact moment you click, you will be
+                        connected the instant someone else joins. The entire experience feels instantaneous.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3>Real-Time Messaging</h3>
+                    <p>Messages appear instantly, just like any premium messaging app. You get read-at-a-glance bubble
+                        layouts, typing indicators that tell you exactly when the other person is composing a message,
+                        image sharing capabilities, a smooth swipe-to-reply gesture system, and a beautiful dark-mode
+                        interface that looks and feels native.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>Works on Every Device</h3>
+                    <p>Whether you&rsquo;re on a desktop computer, a laptop, or a mobile phone, StrangerBay works
+                        perfectly. It&rsquo;s a fully responsive web application that runs directly in your browser.
+                        There is nothing to download, no app store listing, and no updates to install. Just visit the
+                        site on any modern browser and you&rsquo;re good to go.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ══════════════ PRIVACY ══════════════ -->
+    <section class="section" id="privacy-section">
+        <div class="container">
+            <div class="section-label">Security</div>
+            <h2 class="section-title">Is My Data Private?</h2>
+            <p class="section-desc">Short answer: yes, your chats are private. Here&rsquo;s how we handle your data.</p>
+            <div class="privacy-block">
+                <div class="privacy-text">
+                    <h3>Your Privacy Is Our Priority</h3>
+                    <ul class="privacy-list">
+                        <li>No email or phone number required</li>
+                        <li>Chats are never shared with third parties</li>
+                        <li>Data is automatically deleted at regular intervals</li>
+                        <li>Anonymous sessions by design</li>
+                    </ul>
+                    <a href="/page/privacy/" class="privacy-link">Read full privacy policy</a>
+                </div>
+                <div class="privacy-visual">
+                    <svg class="shield-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        <polyline points="9 12 11 14 15 10"></polyline>
+                    </svg>
+                    <p><strong>Your conversations are private and protected.</strong><br>Never shared, automatically
+                        cleaned up.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ══════════════ FAQ ══════════════ -->
+    <section class="section section-center" id="faq">
+        <div class="container">
+            <div class="section-label">Questions</div>
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-desc">Everything you might want to know before you start chatting with a stranger. If you
+                have a question that&rsquo;s not answered here, feel free to reach out through our contact page.</p>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-q">
+                        Is StrangerBay really free to use?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                    </button>
+                    <div class="faq-a">
+                        <p>Yes, 100%. StrangerBay is completely free to use. There are no premium tiers, no paid
+                            features, and no hidden costs. We believe that anonymous communication is a right, not a
+                            luxury. Every feature on the platform is available to every user without any payment or
+                            subscription. There are no ads either, our priority is your experience, not monetization.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-q">
+                        Do I need to create an account?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                    </button>
+                    <div class="faq-a">
+                        <p>Absolutely not. There is no account creation process. You don&rsquo;t need to provide an
+                            email address, phone number, or any other personal detail. Just visit the chat page, pick a
+                            temporary display name, and you&rsquo;re ready. Everything about StrangerBay is designed to
+                            be frictionless and anonymous from the first click.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-q">
+                        Can the other person see my real identity?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                    </button>
+                    <div class="faq-a">
+                        <p>No. The only thing the other person can see is the display name you chose when you started
+                            the session. There is no profile page, no avatar linked to your identity, and no way for
+                            anyone to trace a conversation back to your real name, location, or device. You are
+                            completely anonymous unless you choose to share personal information yourself inside the
+                            chat.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-q">
+                        What happens to my messages after the chat ends?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                    </button>
+                    <div class="faq-a">
+                        <p>Your messages are private and are not shared with anyone outside of your chat session. Chat
+                            data is automatically cleaned up at regular intervals as part of our routine maintenance. We
+                            never share your conversation content with third parties, advertisers, or any external
+                            services.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-q">
+                        Can I send images in the chat?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                    </button>
+                    <div class="faq-a">
+                        <p>Yes. StrangerBay supports image sharing within conversations. You can tap the image button in
+                            the chat bar to select a photo from your device. Images are compressed client-side for fast
+                            transmission. Like all chat data, shared images are private and are automatically cleaned up
+                            at regular intervals. Please exercise caution and never share images containing personal or
+                            sensitive information.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-q">
+                        Is StrangerBay safe for teenagers?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                    </button>
+                    <div class="faq-a">
+                        <p>StrangerBay requires all users to confirm that they are at least 18 years of age before using
+                            the platform. Due to the anonymous nature of the service, conversations are unmoderated and
+                            we cannot guarantee the behavior of other users. This is strictly an adult platform. Users
+                            under 18 should not use StrangerBay under any circumstances.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-q">
+                        How do I report inappropriate behavior?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                    </button>
+                    <div class="faq-a">
+                        <p>If you encounter any behavior that makes you uncomfortable, you should immediately disconnect
+                            from the chat. We encourage users to protect themselves by simply ending the conversation.
+                            If you need to report a general concern about the platform, you can reach us through our
+                            contact page.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-q">
+                        Does StrangerBay work on mobile devices?
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                    </button>
+                    <div class="faq-a">
+                        <p>Yes. StrangerBay is a fully responsive web application optimized for mobile browsers. It
+                            works seamlessly on iPhones, Android devices, tablets, and desktops. There is no native app
+                            to install. Just open your browser, visit the site, and start chatting. The mobile
+                            experience includes swipe-to-reply gestures, image sharing, and smooth touch interactions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ══════════════ REVIEWS ══════════════ -->
+    <section class="section section-center" id="reviews">
+        <div class="container">
+            <div class="section-label">Testimonials</div>
+            <h2 class="section-title">What People Are Saying</h2>
+            <p class="section-desc">Thousands of users choose StrangerBay every day for authentic conversations.
+                Here&rsquo;s what some of them have to say about their experience.</p>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <blockquote>"I was looking for something simple where I could just vent to someone without being
+                        judged. StrangerBay was exactly that. No sign-up, opened the page, typed a name, and I was
+                        talking to someone in 10 seconds flat. Best anonymous chat I've ever used."</blockquote>
+                    <div class="review-author">— Chris, United States</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <blockquote>"The UI is beautiful. It genuinely feels like a premium app, not some sketchy random
+                        chat site from 2010. The dark mode is clean, the animations are smooth, and the fact that there
+                        are zero ads makes it feel really trustworthy."</blockquote>
+                    <div class="review-author">— Yash, India</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <blockquote>"StrangerBay is a great platform for meeting new people and having interesting
+                        conversations. The interface is clean and easy to use, and the community is friendly and
+                        welcoming."</blockquote>
+                    <div class="review-author">— Marcus, Germany</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★☆</div>
+                    <blockquote>"Really fun to use when you're bored. I've had some genuinely interesting conversations
+                        with people from different countries. Fels like using
+                        iMessage but with strangers."</blockquote>
+                    <div class="review-author">— Sarah, UK</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <blockquote>"As someone who lives alone, this has become my go-to when I just want to talk to
+                        someone. No pressure, no accountability, no awkwardness. You just chat and move on. It's oddly
+                        therapeutic."</blockquote>
+                    <div class="review-author">— Kenji, Japan</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <blockquote>"Finally a random chat that works on my phone without downloading an app. The
+                        mobile experience is flawless. It really feels like a native app."</blockquote>
+                    <div class="review-author">— Fatima, UAE</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ══════════════ ARTICLES ══════════════ -->
+    <section class="section section-center" id="articles">
+        <div class="container">
+            <div class="section-label">Blog</div>
+            <h2 class="section-title">Articles & Insights</h2>
+            <p class="section-desc">Dive deeper into topics around online anonymity, digital privacy, and the psychology
+                of talking to strangers.</p>
+            <div class="articles-grid">
+                <div class="article-card">
+                    <div class="article-tag">Privacy</div>
+                    <h3>Why Anonymous Chat Matters More Than Ever in 2026</h3>
+                    <p>In an era of mass surveillance and data harvesting, the ability to communicate without being
+                        tracked is becoming increasingly important for free expression.</p>
+                    <a href="/article/anonymous-chat-importance/" class="article-link">Read more <svg
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg></a>
+                </div>
+                <div class="article-card">
+                    <div class="article-tag">Psychology</div>
+                    <h3>The Psychology Behind Talking to Strangers Online</h3>
+                    <p>Research shows that people are more honest and emotionally open with strangers than with people
+                        they know. Here's why anonymous chat is so powerful.</p>
+                    <a href="/article/psychology-talking-strangers/" class="article-link">Read more <svg
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg></a>
+                </div>
+                <div class="article-card">
+                    <div class="article-tag">Guide</div>
+                    <h3>10 Tips for Having Better Conversations with Strangers</h3>
+                    <p>Having a meaningful conversation with someone you've never met is an art. These practical tips
+                        will help you break the ice and keep things flowing.</p>
+                    <a href="/article/tips-conversations-strangers/" class="article-link">Read more <svg
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg></a>
+                </div>
+                <div class="article-card">
+                    <div class="article-tag">Safety</div>
+                    <h3>How to Stay Safe While Chatting Anonymously Online</h3>
+                    <p>Anonymity is freeing, but it comes with responsibilities. Learn how to protect yourself while
+                        enjoying genuine conversations with strangers.</p>
+                    <a href="/article/stay-safe-anonymous-chat/" class="article-link">Read more <svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg></a>
+                </div>
+                <div class="article-card">
+                    <div class="article-tag">Technology</div>
+                    <h3>How Ephemeral Messaging Works Under the Hood</h3>
+                    <p>A technical deep-dive into how StrangerBay ensures that your messages are truly temporary and
+                        cannot be recovered after a session ends.</p>
+                    <a href="/article/ephemeral-messaging-explained/" class="article-link">Read more <svg
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg></a>
+                </div>
+                <div class="article-card">
+                    <div class="article-tag">Culture</div>
+                    <h3>The Rise and Fall of Omegle — And What Comes Next</h3>
+                    <p>Omegle defined an era of random chat. Now that it's gone, platforms like StrangerBay are
+                        reimagining what anonymous communication looks like.</p>
+                    <a href="/article/rise-fall-omegle/" class="article-link">Read more <svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg></a>
+                </div>
+                <div class="article-card">
+                    <div class="article-tag">Wellness</div>
+                    <h3>Can Talking to Strangers Improve Your Mental Health?</h3>
+                    <p>Studies suggest that casual social interactions with strangers can reduce loneliness, boost mood,
+                        and create a sense of human connection.</p>
+                    <a href="/article/mental-health-strangers/" class="article-link">Read more <svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg></a>
+                </div>
+                <div class="article-card">
+                    <div class="article-tag">Privacy</div>
+                    <h3>Data Brokers and Why Your Online Conversations Are a Commodity</h3>
+                    <p>Your chat data is worth billions to advertisers. Learn how data brokers operate and why platforms
+                        like StrangerBay refuse to participate.</p>
+                    <a href="/article/data-brokers-chat/" class="article-link">Read more <svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg></a>
+                </div>
+                <div class="article-card">
+                    <div class="article-tag">Comparison</div>
+                    <h3>StrangerBay vs Other Anonymous Chat Platforms: An Honest Comparison</h3>
+                    <p>We compare StrangerBay to other popular anonymous chat platforms across privacy, speed, UI, and
+                        feature set. No marketing spin — just facts.</p>
+                    <a href="/article/strangerbay-vs-others/" class="article-link">Read more <svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg></a>
+                </div>
+                <div class="article-card">
+                    <div class="article-tag">Opinion</div>
+                    <h3>Why the Internet Needs More Anonymous Spaces</h3>
+                    <p>An argument for preserving anonymous communication on the internet as social media giants push
+                        for real-name policies and mandatory verification.</p>
+                    <a href="/article/internet-needs-anonymous-spaces/" class="article-link">Read more <svg
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg></a>
+                </div>
+                <div class="article-card">
+                    <div class="article-tag">History</div>
+                    <h3>A Brief History of Chat Rooms: From IRC to Modern Anonymous Chat</h3>
+                    <p>From the early days of Internet Relay Chat to today's encrypted anonymous platforms, the
+                        evolution of online chat is a fascinating journey.</p>
+                    <a href="/article/history-chat-rooms/" class="article-link">Read more <svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg></a>
+                </div>
+                <div class="article-card">
+                    <div class="article-tag">Guide</div>
+                    <h3>Digital Minimalism: How Anonymous Chat Fits Into a Simpler Online Life</h3>
+                    <p>Tired of endless feeds and notification overload? Discover how anonymous, ephemeral chat aligns
+                        with the principles of digital minimalism.</p>
+                    <a href="/article/digital-minimalism-chat/" class="article-link">Read more <svg viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════ CTA BANNER ══════════════ -->
+    <section class="cta-section">
+        <div class="cta-box">
+            <h2>Ready to Meet Someone New?</h2>
+            <p>It takes less than 10 seconds to start your first anonymous conversation. No sign-up, no tracking, just a
+                genuine human connection.</p>
+            <a href="/chat/" class="hero-cta">
+                Start Chatting Now
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- ══════════════ FOOTER ══════════════ -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/" class="logo"><img src="/assets/strangerbay-logo.webp" alt="StrangerBay"
+                        class="logo-img">StrangerBay</a>
+                <p>Anonymous conversations with real people from around the world. No accounts, just
+                    genuine human connection. Built for privacy, designed for simplicity.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Product</h4>
+                <a href="/chat/">Start Chatting</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <a href="/page/about/">About</a>
+                <a href="/page/contact/">Contact</a>
+                <a href="/#articles">Blog</a>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <a href="/page/privacy/">Privacy Policy</a>
+                <a href="/page/terms/">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-copy">&copy; 2026 StrangerBay. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ══════════════ FLOATING SHARE BUTTON ══════════════ -->
+    <button class="btn-floating-share" id="btn-floating-share" title="Share StrangerBay">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <circle cx="18" cy="5" r="3"></circle>
+            <circle cx="6" cy="12" r="3"></circle>
+            <circle cx="18" cy="19" r="3"></circle>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+        </svg>
+    </button>
+
+    <!-- ══════════════ SHARE POPUP ══════════════ -->
+    <div class="share-overlay" id="share-overlay">
+        <div class="share-popup">
+            <button class="btn-share-close" id="btn-share-close">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <h3 class="share-title">Share StrangerBay</h3>
+            <div class="share-icons">
+                <button class="share-btn" data-network="facebook" title="Facebook"><svg viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                    </svg></button>
+                <button class="share-btn" data-network="whatsapp" title="WhatsApp"><svg viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                    </svg></button>
+                <button class="share-btn" data-network="twitter" title="X"><svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                    </svg></button>
+                <button class="share-btn" data-network="telegram" title="Telegram"><svg viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.123-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.896-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+                    </svg></button>
+                <button class="share-btn" data-network="bluesky" title="Bluesky"><svg viewBox="0 0 24 24"
+                        fill="currentColor">
+                        <path
+                            d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037-.856 3.061-3.978 3.842-6.755 3.37 4.854.826 6.089 3.562 3.422 6.299-5.065 5.196-7.28-1.304-7.847-2.97-.104-.305-.152-.448-.153-.327 0-.121-.05.022-.153.327-.568 1.666-2.782 8.166-7.847 2.97-2.667-2.737-1.432-5.473 3.422-6.3-2.777.473-5.899-.308-6.755-3.369C.42 10.04 0 4.615 0 3.883c0-3.67 3.217-2.517 5.202-1.026" />
+                    </svg></button>
+            </div>
+            <div class="share-copy-bar">
+                <input type="text" class="share-url-input" id="share-url-input" readonly
+                    value="https://strangerbay.com">
+                <button class="btn-copy-url" id="btn-copy-url" title="Copy link">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ══════════════ JAVASCRIPT ══════════════ -->
+    <script>
+        // Mobile nav toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        if (hamburger) {
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('open');
+            });
+        }
+        // Close nav on link click (mobile)
+        navLinks.querySelectorAll('a').forEach(a => {
+            a.addEventListener('click', () => navLinks.classList.remove('open'));
+        });
+
+        // FAQ accordion
+        document.querySelectorAll('.faq-q').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const item = btn.parentElement;
+                const isOpen = item.classList.contains('open');
+                // close all
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+                if (!isOpen) item.classList.add('open');
+            });
+        });
+
+        // Share popup
+        const btnFloatingShare = document.getElementById('btn-floating-share');
+        const shareOverlay = document.getElementById('share-overlay');
+        const btnShareClose = document.getElementById('btn-share-close');
+        const btnCopyUrl = document.getElementById('btn-copy-url');
+        const shareUrlInput = document.getElementById('share-url-input');
+
+        if (btnFloatingShare) btnFloatingShare.addEventListener('click', () => shareOverlay.classList.add('show'));
+        if (btnShareClose) btnShareClose.addEventListener('click', () => shareOverlay.classList.remove('show'));
+        if (shareOverlay) shareOverlay.addEventListener('click', e => { if (e.target === shareOverlay) shareOverlay.classList.remove('show'); });
+
+        const iconCopy = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>`;
+        const iconCheck = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+
+        if (btnCopyUrl && shareUrlInput) {
+            btnCopyUrl.addEventListener('click', () => {
+                shareUrlInput.select();
+                navigator.clipboard.writeText(shareUrlInput.value).then(() => {
+                    btnCopyUrl.classList.add('copied');
+                    btnCopyUrl.innerHTML = iconCheck;
+                    setTimeout(() => { btnCopyUrl.classList.remove('copied'); btnCopyUrl.innerHTML = iconCopy; }, 2000);
+                });
+            });
+        }
+
+        // Share intents
+        const shareLinks = {
+            facebook: u => `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(u)}`,
+            whatsapp: (u, t) => `https://api.whatsapp.com/send?text=${encodeURIComponent(t + ' ' + u)}`,
+            twitter: (u, t) => `https://twitter.com/intent/tweet?url=${encodeURIComponent(u)}&text=${encodeURIComponent(t)}`,
+            telegram: (u, t) => `https://t.me/share/url?url=${encodeURIComponent(u)}&text=${encodeURIComponent(t)}`,
+            bluesky: (u, t) => `https://bsky.app/intent/compose?text=${encodeURIComponent(t + ' ' + u)}`
+        };
+        document.querySelectorAll('.share-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const net = btn.dataset.network;
+                const url = 'https://strangerbay.com';
+                const text = 'Chat anonymously with strangers on StrangerBay:';
+                if (shareLinks[net]) window.open(shareLinks[net](url, text), '_blank', 'width=600,height=600');
+            });
+        });
+
+        // Smooth header background on scroll
+        const header = document.getElementById('site-header');
+        window.addEventListener('scroll', () => {
+            header.style.background = window.scrollY > 50 ? 'rgba(15, 15, 19, 0.95)' : 'rgba(15, 15, 19, 0.8)';
+        });
+    </script>
+</body>
+
+</html>

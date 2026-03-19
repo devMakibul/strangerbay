@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — StrangerBay</title>
+    <meta name="description"
+        content="Read our privacy policy to understand how we protect your anonymity and handle your data.">
+    <link rel="icon" href="/assets/favicon.ico" sizes="any">
+    <link rel="icon" href="/assets/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <meta property="og:image" content="https://strangerbay.com/assets/meta-banner.webp">
+    <meta name="twitter:image" content="https://strangerbay.com/assets/meta-banner.webp">
+    <meta name="theme-color" content="#0f0f13">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/landing-style.css">
+</head>
+
+<body class="article-page-body">
+
+    <!-- NAV -->
+    <header class="site-header" id="site-header">
+        <div class="header-inner">
+            <a href="/" class="logo"><img src="/assets/strangerbay-logo.webp" alt="StrangerBay"
+                    class="logo-img">StrangerBay</a>
+            <nav class="nav-links" id="nav-links">
+                <a href="/">Home</a>
+                <a href="/page/about/">About</a>
+                <a href="/page/privacy/">Privacy</a>
+                <a href="/page/terms/">Terms</a>
+                <a href="/page/contact/">Contact</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- BREADCRUMB -->
+    <div class="article-breadcrumb">
+        <a href="/">Home</a><span class="sep">/</span>
+        <span>Privacy Policy</span>
+    </div>
+
+    <!-- CONTENT -->
+    <article class="article-container">
+        <header class="article-header">
+            <div class="article-tag">Legal</div>
+            <h1>Privacy Policy</h1>
+            <div class="article-meta">Last Updated: March 17, 2026</div>
+        </header>
+
+        <div class="article-body">
+            <p>Your privacy is our utmost priority. Because StrangerBay is designed around anonymity, our privacy policy
+                is straightforward and simple.</p>
+
+            <h2>Anonymity First</h2>
+            <p>We do not require you to create an account, nor do we ask for your email, phone number, location, or real
+                name. Your identity remains anonymous throughout your use of the service.</p>
+
+            <h2>Message Privacy</h2>
+            <p>Conversation content on StrangerBay is private. We do not monitor your private chats for advertising
+                purposes, and we do not sell your conversation data to third parties.</p>
+
+            <h2>Data Retention</h2>
+            <p>To ensure a safe and high-performing environment, chat data is automatically and permanently deleted from
+                our systems at regular intervals. Once a chat session is ended by either user, the connection is closed
+                immediately.</p>
+
+            <h2>No Third-Party Sharing</h2>
+            <p>We do not share or sell any of your information or metadata to third-party data brokers, advertisers, or
+                any other external entities.</p>
+
+            <h2>Cookies</h2>
+            <p>We may use essential cookies or local storage to maintain your chat session and preferences. These are
+                not used for tracking your behavior across other websites.</p>
+        </div>
+    </article>
+
+    <!-- FOOTER -->
+    <footer class="article-footer">
+        <div class="article-footer-inner">
+            <p class="article-footer-copy">&copy; 2026 StrangerBay. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('open');
+            });
+        }
+    </script>
+
+</body>
+
+</html>

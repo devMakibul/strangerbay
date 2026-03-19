@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — StrangerBay</title>
+    <meta name="description" content="Get in touch with the StrangerBay team for support, feedback, or inquiries.">
+    <link rel="icon" href="/assets/favicon.ico" sizes="any">
+    <link rel="icon" href="/assets/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <meta property="og:image" content="https://strangerbay.com/assets/meta-banner.webp">
+    <meta name="twitter:image" content="https://strangerbay.com/assets/meta-banner.webp">
+    <meta name="theme-color" content="#0f0f13">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/landing-style.css">
+</head>
+
+<body class="article-page-body">
+
+    <!-- NAV -->
+    <header class="site-header" id="site-header">
+        <div class="header-inner">
+            <a href="/" class="logo"><img src="/assets/strangerbay-logo.webp" alt="StrangerBay"
+                    class="logo-img">StrangerBay</a>
+            <nav class="nav-links" id="nav-links">
+                <a href="/">Home</a>
+                <a href="/page/about/">About</a>
+                <a href="/page/privacy/">Privacy</a>
+                <a href="/page/terms/">Terms</a>
+                <a href="/page/contact/">Contact</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- BREADCRUMB -->
+    <div class="article-breadcrumb">
+        <a href="/">Home</a><span class="sep">/</span>
+        <span>Contact</span>
+    </div>
+
+    <!-- CONTENT -->
+    <article class="article-container">
+        <header class="article-header">
+            <div class="article-tag">Support</div>
+            <h1>Contact Us</h1>
+            <div class="article-meta">Last Updated: March 17, 2026</div>
+        </header>
+
+        <div class="article-body">
+            <p>Have questions, feedback, or need to report a critical issue? We're here to help.</p>
+
+            <h2>Get In Touch</h2>
+            <p>While StrangerBay is built for anonymity and we cannot help you retrieve lost chat histories or
+                identifying information, we value your input on site performance, security, and user experience.</p>
+
+            <p><strong>Email:</strong> <a href="mailto:support@strangerbay.com"
+                    style="color:var(--text); text-decoration:none;">support@strangerbay.com</a> or <a
+                    href="mailto:strangerbay.74x73@dralias.com"
+                    style="color:var(--text); text-decoration:none;">strangerbay.74x73@dralias.com</a></p>
+
+            <p>Our team aims to respond to all inquiries within 48 hours. Please be as detailed as possible in your
+                message so we can assist you effectively.</p>
+
+            <h2>Report Abuse</h2>
+            <p>If you encounter behavior that violates our Terms of Service, please use the reporting features
+                where available, or send us an email with relevant details.</p>
+
+            <h2>Press & Inquiries</h2>
+            <p>For press inquiries, partnerships, or legal matters, please contact us at the email address provided
+                above.</p>
+        </div>
+    </article>
+
+    <!-- FOOTER -->
+    <footer class="article-footer">
+        <div class="article-footer-inner">
+            <p class="article-footer-copy">&copy; 2026 StrangerBay. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('open');
+            });
+        }
+    </script>
+
+</body>
+
+</html>

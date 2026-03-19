@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service — StrangerBay</title>
+    <meta name="description"
+        content="Read our terms of service to understand the rules and guidelines for using StrangerBay.">
+    <link rel="icon" href="/assets/favicon.ico" sizes="any">
+    <link rel="icon" href="/assets/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <meta property="og:image" content="https://strangerbay.com/assets/meta-banner.webp">
+    <meta name="twitter:image" content="https://strangerbay.com/assets/meta-banner.webp">
+    <meta name="theme-color" content="#0f0f13">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/landing-style.css">
+</head>
+
+<body class="article-page-body">
+
+    <!-- NAV -->
+    <header class="site-header" id="site-header">
+        <div class="header-inner">
+            <a href="/" class="logo"><img src="/assets/strangerbay-logo.webp" alt="StrangerBay"
+                    class="logo-img">StrangerBay</a>
+            <nav class="nav-links" id="nav-links">
+                <a href="/">Home</a>
+                <a href="/page/about/">About</a>
+                <a href="/page/privacy/">Privacy</a>
+                <a href="/page/terms/">Terms</a>
+                <a href="/page/contact/">Contact</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- BREADCRUMB -->
+    <div class="article-breadcrumb">
+        <a href="/">Home</a><span class="sep">/</span>
+        <span>Terms of Service</span>
+    </div>
+
+    <!-- CONTENT -->
+    <article class="article-container">
+        <header class="article-header">
+            <div class="article-tag">Legal</div>
+            <h1>Terms of Service</h1>
+            <div class="article-meta">Last Updated: March 17, 2026</div>
+        </header>
+
+        <div class="article-body">
+            <p>By accessing or using StrangerBay, you agree to be bound by these Terms of Service. If you do not agree
+                to these terms, you may not use our service.</p>
+
+            <h2>Eligibility</h2>
+            <p>You must be at least 18 years old to use StrangerBay. By using the service, you guarantee that you meet
+                this strictly enforced age requirement. If we have reason to believe you are under 18, your access will
+                be terminated.</p>
+
+            <h2>User Conduct</h2>
+            <p>While we prioritize your anonymity, we expect all users to behave respectfully. By using StrangerBay, you
+                agree NOT to:</p>
+            <ul>
+                <li>Share personally identifiable information of yourself or others.</li>
+                <li>Share financial details, passwords, or sensitive data.</li>
+                <li>Use the service to facilitate illegal activities, harassment, or the spreading of malicious content.
+                </li>
+                <li>Transmit sexually explicit or prohibited material.</li>
+                <li>Abuse or exploit the platform's infrastructure.</li>
+            </ul>
+
+            <h2>Disclaimer of Liability</h2>
+            <p>StrangerBay provides this service "as is". Due to the anonymous and ephemeral nature of the platform, we
+                are not responsible or liable for the content, actions, or behavior of any users. You interact with
+                strangers at your own discretion and risk. We do not guarantee the accuracy or safety of any information
+                shared by users.</p>
+
+            <h2>Termination of Service</h2>
+            <p>We reserve the right to terminate your access to the service at any time, without notice, for any reason,
+                including but not limited to violations of these Terms of Service.</p>
+        </div>
+    </article>
+
+    <!-- FOOTER -->
+    <footer class="article-footer">
+        <div class="article-footer-inner">
+            <p class="article-footer-copy">&copy; 2026 StrangerBay. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('open');
+            });
+        }
+    </script>
+
+</body>
+
+</html>
