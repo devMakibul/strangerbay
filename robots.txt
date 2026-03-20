@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /chat/
+Disallow: /__/
+
+Sitemap: https://strangerbay.com/sitemap.xml
